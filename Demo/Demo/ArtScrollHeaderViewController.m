@@ -9,6 +9,7 @@
 #import "ArtScrollHeaderViewController.h"
 #import "JYPagingView.h"
 #import "ArtTableViewController.h"
+#import "Demo-Swift.h"
 
 @interface ArtScrollHeaderViewController ()<HHHorizontalPagingViewDelegate>
 

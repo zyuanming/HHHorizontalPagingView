@@ -9,6 +9,7 @@
 #import "ArtDefaultViewController.h"
 #import "JYPagingView.h"
 #import "ArtTableViewController.h"
+#import "Demo-Swift.h"
 
 @interface ArtDefaultViewController ()<HHHorizontalPagingViewDelegate>
 

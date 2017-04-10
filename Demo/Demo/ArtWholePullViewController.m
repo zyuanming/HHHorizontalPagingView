@@ -10,6 +10,7 @@
 #import "JYPagingView.h"
 #import "ArtTableViewController.h"
 #import "SDTimeLineRefreshHeader.h"
+#import "Demo-Swift.h"
 
 @interface ArtWholePullViewController ()<HHHorizontalPagingViewDelegate>
 

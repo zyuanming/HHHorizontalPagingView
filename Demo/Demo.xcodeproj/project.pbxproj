@@ -12,8 +12,6 @@
 		5C33A7801DB9F4C600E05E6E /* ArtPullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C33A77F1DB9F4C600E05E6E /* ArtPullViewController.m */; };
 		5C33A7BE1DB9FAC400E05E6E /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C33A7BB1DB9FAC400E05E6E /* UIScrollView+SVInfiniteScrolling.m */; };
 		5C33A7BF1DB9FAC400E05E6E /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C33A7BD1DB9FAC400E05E6E /* UIScrollView+SVPullToRefresh.m */; };
-		5C68B8B41DF2B9BC00F1C693 /* DynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68B8B31DF2B9BC00F1C693 /* DynamicItem.m */; };
-		5C68B8B71DF2CFD800F1C693 /* UIScrollView+Dragging.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68B8B61DF2CFD800F1C693 /* UIScrollView+Dragging.m */; };
 		5C68B8C41DF2DC2C00F1C693 /* ArtScrollHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68B8C31DF2DC2C00F1C693 /* ArtScrollHeaderViewController.m */; };
 		5C7C2D221E079047002EB69D /* ArtChangeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C2D211E079047002EB69D /* ArtChangeNavViewController.m */; };
 		5CB825AF1DCB45CB007DFD1D /* SDBaseRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB825AA1DCB45CB007DFD1D /* SDBaseRefreshView.m */; };
@@ -26,9 +24,11 @@
 		5CE9F30A1CF9729800DB414B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE9F3081CF9729800DB414B /* LaunchScreen.storyboard */; };
 		5CE9F3151CF9729800DB414B /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F3141CF9729800DB414B /* DemoTests.m */; };
 		5CE9F3201CF9729800DB414B /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F31F1CF9729800DB414B /* DemoUITests.m */; };
-		5CE9F3391CF9737300DB414B /* HHHorizontalPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F3361CF9737300DB414B /* HHHorizontalPagingView.m */; };
-		5CE9F33A1CF9737300DB414B /* UIView+WhenTappedBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F3381CF9737300DB414B /* UIView+WhenTappedBlocks.m */; };
 		5CE9F3471CF9A71800DB414B /* ArtTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F3461CF9A71800DB414B /* ArtTableViewController.m */; };
+		6038D6AF1E9689BF00B0F257 /* DynamicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6038D6AE1E9689BF00B0F257 /* DynamicItem.swift */; };
+		6038D6B11E968B9300B0F257 /* HHHorizontalPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6038D6B01E968B9300B0F257 /* HHHorizontalPagingView.swift */; };
+		609AE3261E953AC300435C1A /* UIScrollView+Dragging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079244E1E950CD5006A6DC4 /* UIScrollView+Dragging.swift */; };
+		60BBBC141E953D2800F9555A /* UIView+WhenTappedBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBBC131E953D2800F9555A /* UIView+WhenTappedBlocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,6 @@
 		5C33A7BB1DB9FAC400E05E6E /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
 		5C33A7BC1DB9FAC400E05E6E /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
 		5C33A7BD1DB9FAC400E05E6E /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
-		5C68B8B21DF2B9BC00F1C693 /* DynamicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicItem.h; sourceTree = "<group>"; };
-		5C68B8B31DF2B9BC00F1C693 /* DynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicItem.m; sourceTree = "<group>"; };
-		5C68B8B51DF2CFD800F1C693 /* UIScrollView+Dragging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Dragging.h"; sourceTree = "<group>"; };
-		5C68B8B61DF2CFD800F1C693 /* UIScrollView+Dragging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Dragging.m"; sourceTree = "<group>"; };
 		5C68B8C21DF2DC2C00F1C693 /* ArtScrollHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtScrollHeaderViewController.h; sourceTree = "<group>"; };
 		5C68B8C31DF2DC2C00F1C693 /* ArtScrollHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtScrollHeaderViewController.m; sourceTree = "<group>"; };
 		5C7C2D201E079047002EB69D /* ArtChangeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtChangeNavViewController.h; sourceTree = "<group>"; };
@@ -88,13 +84,14 @@
 		5CE9F31B1CF9729800DB414B /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE9F31F1CF9729800DB414B /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		5CE9F3211CF9729800DB414B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CE9F3351CF9737300DB414B /* HHHorizontalPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHorizontalPagingView.h; sourceTree = "<group>"; };
-		5CE9F3361CF9737300DB414B /* HHHorizontalPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHorizontalPagingView.m; sourceTree = "<group>"; };
-		5CE9F3371CF9737300DB414B /* UIView+WhenTappedBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WhenTappedBlocks.h"; sourceTree = "<group>"; };
-		5CE9F3381CF9737300DB414B /* UIView+WhenTappedBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WhenTappedBlocks.m"; sourceTree = "<group>"; };
 		5CE9F33B1CF9740B00DB414B /* JYPagingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYPagingView.h; sourceTree = "<group>"; };
 		5CE9F3451CF9A71800DB414B /* ArtTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtTableViewController.h; sourceTree = "<group>"; };
 		5CE9F3461CF9A71800DB414B /* ArtTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtTableViewController.m; sourceTree = "<group>"; };
+		6038D6AE1E9689BF00B0F257 /* DynamicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItem.swift; sourceTree = "<group>"; };
+		6038D6B01E968B9300B0F257 /* HHHorizontalPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHHorizontalPagingView.swift; sourceTree = "<group>"; };
+		6079244D1E950CD5006A6DC4 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6079244E1E950CD5006A6DC4 /* UIScrollView+Dragging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Dragging.swift"; sourceTree = "<group>"; };
+		60BBBC131E953D2800F9555A /* UIView+WhenTappedBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+WhenTappedBlocks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,14 +231,11 @@
 			isa = PBXGroup;
 			children = (
 				5CE9F33B1CF9740B00DB414B /* JYPagingView.h */,
-				5CE9F3351CF9737300DB414B /* HHHorizontalPagingView.h */,
-				5CE9F3361CF9737300DB414B /* HHHorizontalPagingView.m */,
-				5C68B8B21DF2B9BC00F1C693 /* DynamicItem.h */,
-				5C68B8B31DF2B9BC00F1C693 /* DynamicItem.m */,
-				5CE9F3371CF9737300DB414B /* UIView+WhenTappedBlocks.h */,
-				5CE9F3381CF9737300DB414B /* UIView+WhenTappedBlocks.m */,
-				5C68B8B51DF2CFD800F1C693 /* UIScrollView+Dragging.h */,
-				5C68B8B61DF2CFD800F1C693 /* UIScrollView+Dragging.m */,
+				6038D6B01E968B9300B0F257 /* HHHorizontalPagingView.swift */,
+				6038D6AE1E9689BF00B0F257 /* DynamicItem.swift */,
+				60BBBC131E953D2800F9555A /* UIView+WhenTappedBlocks.swift */,
+				6079244E1E950CD5006A6DC4 /* UIScrollView+Dragging.swift */,
+				6079244D1E950CD5006A6DC4 /* Demo-Bridging-Header.h */,
 			);
 			name = HHHorizontalPagingView;
 			path = ../../HHHorizontalPagingView;
@@ -314,6 +308,7 @@
 				TargetAttributes = {
 					5CE9F2F61CF9729700DB414B = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 					};
 					5CE9F30F1CF9729800DB414B = {
 						CreatedOnToolsVersion = 7.3;
@@ -381,18 +376,18 @@
 				5CE9F3021CF9729800DB414B /* ViewController.m in Sources */,
 				5CE9F3471CF9A71800DB414B /* ArtTableViewController.m in Sources */,
 				5C33A7BE1DB9FAC400E05E6E /* UIScrollView+SVInfiniteScrolling.m in Sources */,
-				5C68B8B71DF2CFD800F1C693 /* UIScrollView+Dragging.m in Sources */,
 				5C7C2D221E079047002EB69D /* ArtChangeNavViewController.m in Sources */,
 				5CE9F2FF1CF9729800DB414B /* AppDelegate.m in Sources */,
 				5C68B8C41DF2DC2C00F1C693 /* ArtScrollHeaderViewController.m in Sources */,
 				5C33A7BF1DB9FAC400E05E6E /* UIScrollView+SVPullToRefresh.m in Sources */,
 				5CB825B11DCB45CB007DFD1D /* SDTimeLineRefreshHeader.m in Sources */,
-				5CE9F33A1CF9737300DB414B /* UIView+WhenTappedBlocks.m in Sources */,
-				5C68B8B41DF2B9BC00F1C693 /* DynamicItem.m in Sources */,
 				5C33A7801DB9F4C600E05E6E /* ArtPullViewController.m in Sources */,
+				60BBBC141E953D2800F9555A /* UIView+WhenTappedBlocks.swift in Sources */,
 				5C33A7791DB9EAB000E05E6E /* ArtDefaultViewController.m in Sources */,
-				5CE9F3391CF9737300DB414B /* HHHorizontalPagingView.m in Sources */,
+				6038D6B11E968B9300B0F257 /* HHHorizontalPagingView.swift in Sources */,
+				609AE3261E953AC300435C1A /* UIScrollView+Dragging.swift in Sources */,
 				5CB825AF1DCB45CB007DFD1D /* SDBaseRefreshView.m in Sources */,
+				6038D6AF1E9689BF00B0F257 /* DynamicItem.swift in Sources */,
 				5CE9F2FC1CF9729800DB414B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -524,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,15 +531,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tiefeng liu (XU7P666F6F)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tiefeng liu (XU7P666F6F)";
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunyunxiao.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5c19da05-2fac-428f-b197-6071a673e933";
 				PROVISIONING_PROFILE_SPECIFIER = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "../HHHorizontalPagingView/Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -552,21 +551,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tiefeng liu (XU7P666F6F)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tiefeng liu (XU7P666F6F)";
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunyunxiao.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5c19da05-2fac-428f-b197-6071a673e933";
 				PROVISIONING_PROFILE_SPECIFIER = all;
+				SWIFT_OBJC_BRIDGING_HEADER = "../HHHorizontalPagingView/Demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		5CE9F3281CF9729800DB414B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -579,6 +582,7 @@
 		5CE9F3291CF9729800DB414B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -591,6 +595,7 @@
 		5CE9F32B1CF9729800DB414B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunyunxiao.DemoUITests;
@@ -602,6 +607,7 @@
 		5CE9F32C1CF9729800DB414B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunyunxiao.DemoUITests;

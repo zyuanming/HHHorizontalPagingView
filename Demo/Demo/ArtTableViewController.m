@@ -9,6 +9,11 @@
 #import "ArtTableViewController.h"
 #import "SVPullToRefresh.h"
 #import "JYPagingView.h"
+#import "Demo-Swift.h"
+
+NSString* kHHHorizontalScrollViewRefreshStartNotification = @"kHHHorizontalScrollViewRefreshStartNotification";
+NSString* kHHHorizontalScrollViewRefreshEndNotification = @"kHHHorizontalScrollViewRefreshEndNotification";
+NSString* kHHHorizontalTakeBackRefreshEndNotification = @"kHHHorizontalTakeBackRefreshEndNotification";
 
 @interface ArtTableViewController()<UITableViewDelegate,UITableViewDataSource>
 
@@ -33,7 +38,7 @@
         return;
     }
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(takeBack:) name:kHHHorizontalTakeBackRefreshEndNotification object:self.tableView];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(takeBack:) name: kHHHorizontalTakeBackRefreshEndNotification object:self.tableView];
     
     __weak typeof(self)weakSelf = self;
     [self.tableView addPullToRefreshOffset:self.pullOffset withActionHandler:^{

@@ -10,6 +10,7 @@
 #import "JYPagingView.h"
 #import "ArtTableViewController.h"
 #import "SVPullToRefresh.h"
+#import "Demo-Swift.h"
 
 @interface ArtPullViewController ()<HHHorizontalPagingViewDelegate>
 
